@@ -28,7 +28,7 @@ public class EurekaserverApplication {
     }
 
 }
-
+```
 
 @SpringBootApplication: Annotation that marks the class as a Spring Boot application.
 
