@@ -54,10 +54,15 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
 ```
 
 **spring.application.name:** Sets the name of the application.
+
 **server.port:** Configures the port on which Eureka Server will run (8761).
+
 **eureka.instance.hostname:** Specifies the hostname of the Eureka Server instance.
+
 **eureka.client.registerWithEureka:** Disables registration of Eureka Server with itself (since it does not need to register).
+
 **eureka.client.fetchRegistry:** Disables fetching the registry (since it does not need to fetch registry data).
+
 **eureka.client.serviceUrl.defaultZone:** Defines the URL where Eureka Server will expose its service registry.
 
 
@@ -119,6 +124,10 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
 ```
 
 **spring-cloud-starter-netflix-eureka-server:** Dependency for adding Eureka Server functionality.
+
 **spring-boot-starter-test:** Dependency for testing.
+
 **spring-cloud-dependencies:** Manages Spring Cloud versions.
+
 **spring-boot-maven-plugin:** Plugin for building and running Spring Boot applications.
+
